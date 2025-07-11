@@ -23,7 +23,7 @@ GitHub Copilot で Vibe Cording を行うための設定を管理するための
 2. このリポジトリをクローンします。
 
    ```bash
-   git clone https://github.com/your-org/vibe-coding-setting.git
+   git clone git@github.com:ryo2357/vibe-coding-setting.git
    ```
 
 3. 必要なフォルダやファイルをプロジェクトにコピーします。
