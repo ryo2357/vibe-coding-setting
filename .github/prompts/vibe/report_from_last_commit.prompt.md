@@ -25,16 +25,13 @@ git --no-pager diff HEAD~1 HEAD
 - 実装内容の概要を抽出
 - 達成された成果物を列挙
 
-### フェーズ 3: 仕様書更新
+### フェーズ 3: SerenaMCP の更新
 
-- `.docs/specs/` ディレクトリ内の仕様書を確認
-- 仕様書が存在しない場合は新規作成
-- 実装結果をもとに仕様書の作成・更新おこなう
-- 仕様書の詳細な構成要素、記述形式は `.github\instructions\general.instructions.md` を参照
+- SerenaMCPのメモリの更新を行う
 
 ### フェーズ 4: 実装報告書の作成
 
 - `.docs/reports/` ディレクトリ内に実装内容の報告書を作成
-- 報告書の詳細な構成要素、記述形式は `.github\instructions\general.instructions.md` を参照
+- 報告書の詳細な構成要素、記述形式は `AGENTS.md` を参照
 - 参照コーディング計画: `<コーディング計画のファイル名>` について参照コーディング計画は存在しないので記載しない
 

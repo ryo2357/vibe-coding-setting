@@ -10,6 +10,10 @@ GitHub Copilot で Vibe Cording を行うための設定を管理するための
 - `.vscode/`  
   `.github`内のファイルを参照する VSCode の設定を管理
 
+- `root_files`
+  プロジェクトルートに配置するファイル群
+  主に`AGENTS.md`
+
 ## 使用方法
 
 ### 新規プロジェクトへの導入
@@ -31,6 +35,7 @@ GitHub Copilot で Vibe Cording を行うための設定を管理するための
    ```bash
    cp -r vibe-coding-setting/.github ./
    cp -r vibe-coding-setting/.vscode ./
+   cp -r vibe-coding-setting/root_files/* ./
    ```
 
 4. クローンしたリポジトリを削除します（オプション）。
