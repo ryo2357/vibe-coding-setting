@@ -33,6 +33,7 @@ GitHub Copilot で Vibe Cording を行うための設定を管理するための
 3. 必要なフォルダやファイルをプロジェクトにコピーします。
 
    ```bash
+   cp -r vibe-coding-setting/.docs ./
    cp -r vibe-coding-setting/.github ./
    cp -r vibe-coding-setting/.vscode ./
    cp -r vibe-coding-setting/root_files/* ./
