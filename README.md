@@ -2,7 +2,15 @@
 
 GitHub Copilot で Vibe Cording を行うための設定を管理するためのリポジトリ
 
-## 構成
+## リポジトリの構成
+
+- `plain`
+  MCP を追加しない運用
+
+- `serena`
+  Serena MCP を追加した運用
+
+## フォルダ内容
 
 - `.github`
   GitHub Copilot 関連の設定を管理します。
@@ -33,10 +41,10 @@ GitHub Copilot で Vibe Cording を行うための設定を管理するための
 3. 必要なフォルダやファイルをプロジェクトにコピーします。
 
    ```bash
-   cp -r vibe-coding-setting/.docs ./
-   cp -r vibe-coding-setting/.github ./
-   cp -r vibe-coding-setting/.vscode ./
-   cp -r vibe-coding-setting/root_files/* ./
+   cp -r vibe-coding-setting/<select configuration>/.docs ./
+   cp -r vibe-coding-setting/<select configuration>/.github ./
+   cp -r vibe-coding-setting/<select configuration>/.vscode ./
+   cp -r vibe-coding-setting/<select configuration>/root_files/* ./
    ```
 
 4. クローンしたリポジトリを削除します（オプション）。
