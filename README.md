@@ -10,6 +10,9 @@ GitHub Copilot で Vibe Cording を行うための設定を管理するための
 - `serena`
   Serena MCP を追加した運用
 
+- `develop`
+  検証中の運用
+
 ## フォルダ内容
 
 - `.github`
